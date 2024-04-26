@@ -22,6 +22,9 @@ devDependencies:
   '@nuxt/types':
     specifier: ^2.17.3
     version: 2.17.3
+  '@nuxtjs/color-mode':
+    specifier: ^3.4.1
+    version: 3.4.1
   '@nuxtjs/eslint-config-typescript':
     specifier: ^12.1.0
     version: 12.1.0(eslint@8.57.0)(typescript@5.4.5)
@@ -1219,6 +1222,18 @@ packages:
       - vls
       - vti
       - vue-tsc
+
+  /@nuxtjs/color-mode@3.4.1:
+    resolution: {integrity: sha512-vZgJqDstxInGw3RGSWbLoCLXtU1mvh1LLeuEA/X3a++DYA4ifwSbNoiSiOyb9qZHFEwz1Xr99H71sXV4IhOaEg==}
+    dependencies:
+      '@nuxt/kit': 3.11.2
+      pathe: 1.1.2
+      pkg-types: 1.1.0
+      semver: 7.6.0
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
 
   /@nuxtjs/eslint-config-typescript@12.1.0(eslint@8.57.0)(typescript@5.4.5):
     resolution: {integrity: sha512-l2fLouDYwdAvCZEEw7wGxOBj+i8TQcHFu3zMPTLqKuv1qu6WcZIr0uztkbaa8ND1uKZ9YPqKx6UlSOjM4Le69Q==}

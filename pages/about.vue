@@ -4,6 +4,10 @@
 
 <script setup lang="ts">
 // @ts-ignore
+useHead({
+  title: 'About'
+})
+// @ts-ignore
 // definePageMeta({
 //   layout: 'about'
 // })
