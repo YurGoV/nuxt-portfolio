@@ -1,14 +1,5 @@
 <template>
-  <div>page about me</div>
+  <article class="prose dark:prose-invert prose-h1:text-2xl">
+    <ContentDoc path="/about" />
+  </article>
 </template>
-
-<script setup lang="ts">
-// @ts-ignore
-useHead({
-  title: 'About'
-})
-// @ts-ignore
-// definePageMeta({
-//   layout: 'about'
-// })
-</script>

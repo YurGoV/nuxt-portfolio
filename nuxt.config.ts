@@ -19,6 +19,14 @@ export default defineNuxtConfig({
     ['@nuxtjs/eslint-module', { lintOnStart: false }],
     '@nuxtjs/color-mode'
   ],
+  content: {
+    highlight: {
+      theme: {
+        default: 'min-light',
+        dark: 'min-dark'
+      }
+    }
+  },
   colorMode: {
     classSuffix: ''
   }

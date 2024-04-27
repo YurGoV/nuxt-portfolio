@@ -9,7 +9,6 @@
         </div>
         <Menu />
       </div>
-      // work good wighout
       <ClientOnly>
         <ColorModeSelector />
       </ClientOnly>
