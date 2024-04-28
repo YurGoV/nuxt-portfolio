@@ -9,7 +9,6 @@
 <script setup lang="ts">
 // @ts-ignore
 const route = useRoute()
-console.log(route.params.slug)
 </script>
 
 <style scoped></style>
