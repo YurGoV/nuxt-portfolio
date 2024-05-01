@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1'
-    }
+    },
+    pageTransition: { name: 'page', mode: 'out-in' }
   },
   devtools: { enabled: true },
   alias: {
@@ -19,6 +20,7 @@ export default defineNuxtConfig({
     ['@nuxtjs/eslint-module', { lintOnStart: false }],
     '@nuxtjs/color-mode'
   ],
+  // TODO: fix esling error
   content: {
     highlight: {
       theme: {
