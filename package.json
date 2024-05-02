@@ -25,6 +25,7 @@
     "@tailwindcss/typography": "^0.5.13",
     "@types/node": "^20.12.7",
     "autoprefixer": "^10.4.19",
-    "eslint-plugin-nuxt": "^4.0.0"
+    "eslint-plugin-nuxt": "^4.0.0",
+    "sitemap": "^7.1.1"
   }
 }
